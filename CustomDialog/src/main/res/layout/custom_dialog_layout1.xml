@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic Dialog Title"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="A dialog is a type of modal window that appears in front of app content to provide critical information, or prompt for a decision to be made."/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/btnAction2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Action 2"
+            android:textColor="@color/red"
+            android:layout_marginEnd="30dp"/>
+
+        <TextView
+            android:id="@+id/btnAction1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Action 1"
+            android:textColor="@color/red"/>
+
+    </LinearLayout>
+
+</LinearLayout>

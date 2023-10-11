@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingHorizontal="10dp"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnOpen"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Basic Dialog"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_design1"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnOpen2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Basic Dialog with hero icon"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_design1"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnOpen3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Checkboxes in Dialog"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_design2"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnOpen4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Checkboxes in Dialog with hero icon"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_design2"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnOpen5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Radio Button in Dialog"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_design3"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnOpen6"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Radio Button in Dialog with hero icon"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_design3"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
